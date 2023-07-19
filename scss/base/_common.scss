@@ -1,0 +1,40 @@
+html {
+
+}
+a {
+    color: $text-color;
+    &:visited {
+        color: $text-color;
+    }
+    &:active {
+        color: $grey;
+    }
+}
+body {
+    font-family: 'Gilroy', sans-serif;
+    background-color: $bg-color;
+    color: $text-color;
+}
+.container {
+    width: 100%;
+    max-width: 1250px;
+    padding: 0 15px;
+    margin: 0 auto;
+    min-height: 100%;
+    @media screen and (min-width: 1440px) {
+        padding: 0;
+        max-width: 1320px;
+    }
+    @media screen and (max-width: 992px) {
+        max-width: 960px;
+    }
+    @media screen and (max-width: 768px) {
+        max-width: 720px;
+    }
+    @media screen and (max-width: 576px) {
+        max-width: 540px;
+    }
+    @media screen and (max-width: 320px) {
+        max-width: 100%;
+    }
+}

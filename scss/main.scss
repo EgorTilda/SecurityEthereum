@@ -1,0 +1,38 @@
+// Base
+@import './base/reset';
+@import './base/font';
+@import './base/vars';
+@import './base/common';
+
+// Blocks
+@import './blocks/header';
+@import './blocks/intro';
+@import './blocks/defense';
+@import './blocks/connect';
+@import './blocks/faq';
+@import './blocks/best-pr';
+@import './blocks/trade';
+@import './blocks/rpc';
+@import './blocks/footer';
+
+// Media
+@media (max-width: 992px) {
+    .story-line-wrapper {
+      display: none;
+    }
+    
+    .faq__container {
+      display: block;
+      padding: 0 10px;
+    }
+    .faq__add-content{
+      width: 100%;
+    }
+    .faq__card-info{
+      width: calc(100% + 30px);
+      padding: 20px;
+      margin-left: -15px;
+      
+    }
+  }
+  
