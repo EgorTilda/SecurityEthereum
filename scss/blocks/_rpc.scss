@@ -52,9 +52,18 @@
             gap: 10px;
             font-weight: 500;
             font-size: 18px;
+            transition: color .2s ease-in-out;
+            cursor: pointer;
+            &:hover {
+                color: $grey;
+            }
+            &:hover img {
+                opacity: .7;
+            }
             img {
                 height: 36px;
                 width: 36px;
+                transition: opacity .2s ease-in-out;
                 @media screen and (max-width: 992px) {
                     height: 24px;
                     width: 24px;

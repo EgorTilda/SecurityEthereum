@@ -199,3 +199,9 @@ body {
         padding-bottom: 2rem;
     }
 }
+.link {
+    transition: color .2s ease-in-out;
+    &:hover {
+        color: $accent;
+    }
+}

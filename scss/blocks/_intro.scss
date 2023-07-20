@@ -43,7 +43,7 @@
         background-image: url("./../../assets/img/intro.webp");
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: right;
+       background-position: right;
         @media screen and (max-width: 992px) {
             & {
                 background-image: url("./../../assets/img/intro-mobile.webp");
