@@ -1,0 +1,18 @@
+.grid-row {
+    display: flex;
+    @media screen and (max-width: 992px) {
+        & {
+            flex-direction: column;
+        }
+    }
+}
+
+.grid-col-2 {
+    flex-basis: 50%;
+}
+.grid-col-3 {
+    flex-basis: 33.333%;
+}
+.grid-col-4 {
+    flex-basis: 25%;
+}
