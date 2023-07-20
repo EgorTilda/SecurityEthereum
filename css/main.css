@@ -516,4 +516,33 @@ body {
   .faq {
     padding-top: 3rem;
   }
+  .faq__add-content {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+  }
+}
+
+.best-pr__inner {
+  justify-content: space-between;
+}
+.best-pr__content-text {
+  padding-top: 10rem;
+}
+.best-pr__img {
+  max-width: 500px;
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.best-pr__img img {
+  max-width: 400px;
+  min-width: 200px;
+}
+@media screen and (max-width: 992px) {
+  .best-pr__img {
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
 }
