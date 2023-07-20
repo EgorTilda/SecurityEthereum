@@ -523,6 +523,9 @@ body {
 .faq__inner {
   justify-content: space-between;
 }
+.faq__add-content {
+  padding-left: 5%;
+}
 @media screen and (max-width: 992px) {
   .faq {
     padding-top: 3rem;
@@ -530,6 +533,7 @@ body {
   .faq__add-content {
     width: calc(100% + 30px);
     margin-left: -15px;
+    padding-left: 0;
   }
 }
 

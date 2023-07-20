@@ -2,6 +2,9 @@
     &__inner {
         justify-content: space-between;
     }
+    &__add-content {
+        padding-left: 5%;
+    }
     @media screen and (max-width: 992px) {
         & {
             padding-top: 3rem;
@@ -9,6 +12,7 @@
         &__add-content {
             width: calc(100% + 30px);
             margin-left: -15px;
+            padding-left: 0;
         }
     }
 }
