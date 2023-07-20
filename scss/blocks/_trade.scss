@@ -17,6 +17,10 @@
     .link-btn {
         display: flex;
         justify-content: center;
+
+        .link-btn__text {
+            width:auto;
+        }
     }
     &__cover {
         width: 60%;

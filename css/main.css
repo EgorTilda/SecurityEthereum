@@ -536,6 +536,9 @@ body {
   display: flex;
   justify-content: center;
 }
+.trade .link-btn .link-btn__text {
+  width: auto;
+}
 .trade__cover {
   width: 60%;
   margin: 60px auto 0px;
