@@ -1,4 +1,7 @@
 .defense {
+    &__inner {
+        justify-content: space-between;
+    }
     &__add-content {
         padding-left: 5%;
     }
