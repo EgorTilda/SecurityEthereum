@@ -188,9 +188,9 @@ body {
   line-height: 1.2;
   margin-bottom: 2rem;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
   .title {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -203,7 +203,7 @@ body {
 }
 @media screen and (max-width: 425px) {
   .text {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 
